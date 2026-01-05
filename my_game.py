@@ -157,9 +157,7 @@ while running:
     screen.blit(background_image, (0, 0))
     all_sprites.draw(screen)
     vol_display = 0 if is_muted else int(current_volume * 100)
-    vol_text = f"Volume: {vol_display}%" + (" (MUTED)" if is_muted else "")
     screen.blit(FONT.render(f"Score: {score}", True, (255, 255, 255)), (10, 10))
-    screen.blit(FONT.render(vol_text, True, (200, 200, 200)), (10, 40))
     if player.cooldown_timer == 0:
         dash_label = FONT.render("DASH READY", True, (0, 255, 150))
     else:
