@@ -5,3 +5,4 @@
 3. Then go to clone the Repo
 4. You can run it with `python3 my_game.py`
 1. Arrow keys to move, and space bar to dash. keys 0-9 control volume, and P to Pause
+2. Beat your friends high Scores
